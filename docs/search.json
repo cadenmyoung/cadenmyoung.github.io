@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "notes/normal-matrices.html",
+    "href": "notes/normal-matrices.html",
+    "title": "How often is a random sign matrix normal?",
+    "section": "",
+    "text": "Suppose we fill an \\(n \\times n\\) matrix with independent, uniformly random signs. What’s the probability that the resulting matrix is normal?\nOne way this can happen is for the matrix to be symmetric. Once we’ve chosen the entries above the diagonal, each entry below it has a one-half chance of matching its partner. So\n\\[\n\\Pr(M = M^\\top) = 2^{-\\binom{n}{2}}.\n\\]\nHow much do the nonsymmetric normal matrices add?\nBack to notes"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Caden Young",
+    "section": "",
+    "text": "I study mathematics and physics. I’m interested in probability and combinatorics, especially random matrices and random graphs."
+  },
+  {
+    "objectID": "index.html#notes",
+    "href": "index.html#notes",
+    "title": "Caden Young",
+    "section": "Notes",
+    "text": "Notes\n\nHow often is a random sign matrix normal?"
+  }
+]

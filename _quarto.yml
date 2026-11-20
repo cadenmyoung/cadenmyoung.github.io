@@ -1,0 +1,12 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Caden Young"
+
+format:
+  html:
+    mainfont: Georgia
+    fontsize: 18px
+    toc: false

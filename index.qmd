@@ -1,0 +1,9 @@
+---
+title: "Caden Young"
+---
+
+I study mathematics and physics. I'm interested in probability and combinatorics, especially random matrices and random graphs.
+
+## Notes
+
+- [How often is a random sign matrix normal?](notes/normality.html)
