@@ -4,6 +4,8 @@ title: "Caden Young"
 
 I study mathematics and physics. I'm interested in probability and combinatorics, especially random matrices and random graphs.
 
+Email: [cadenmyronyoung@gmail.com](mailto:cadenmyronyoung@gmail.com)
+
 ## Notes
 
 - [How often is a random sign matrix normal?](notes/normality.html) <small>(<time datetime="2026-08-28">August 28, 2026</time>)</small>
