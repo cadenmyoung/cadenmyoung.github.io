@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - google49b320cc3d7edeb1.html
 
 website:
   title: "Caden Young"
