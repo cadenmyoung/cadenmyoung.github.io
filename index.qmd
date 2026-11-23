@@ -1,8 +1,9 @@
 ---
 title: "Caden Young"
+pagetitle: "Caden Young | Mathematics"
 ---
 
-I study mathematics and physics. I'm interested in probability and combinatorics, especially random matrices and random graphs.
+I study mathematics at the University of Tulsa. My research interests are in probability and combinatorics, especially random matrices and random graphs.
 
 Email: [cadenmyronyoung@gmail.com](mailto:cadenmyronyoung@gmail.com)
 
