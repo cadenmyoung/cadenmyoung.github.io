@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "notes/stable-roommates.html",
+    "href": "notes/stable-roommates.html",
+    "title": "Finding a stable roommate",
+    "section": "",
+    "text": "Suppose that \\(n\\) people need roommates, with \\(n\\) even. Each person ranks the others in order of preference. We call a pairing stable if no two people in different rooms would rather ditch their roommates and pair off together. I have just uploaded to the arXiv a recent preprint in which Ian Studebaker and I study the probability \\(P_n\\) that a stable pairing exists when the rankings are independent and uniformly random.\n\nThis problem traces its beginnings to the famous stable marriage problem, where—as is common knowledge now—a stable pairing always exists. This problem can be thought of as a generalization of that, where there is no restriction on the sex of the person one is allowed to marry (as of 2015 in the U.S.). For this reason, I have also seen it referred to as the homosexual stable marriage problem. Initial interest in this problem was concentrated around algorithmic solutions, and Knuth even raised the possibility that deciding whether a stable pairing exists might be NP-complete! In 1985, Irving gave an \\(O(n^2)\\) algorithm that finds a stable pairing or determines that none exists.\n\nLet us turn our attention to the probabilistic side of this problem. Boris Pittel showed in 1993 that the expected number of stable pairings tends to \\(\\sqrt{e}\\). A single set of rankings can admit several stable pairings, so this average still leaves open how often a solution exists. Pittel also obtained the lower bound \\(P_n \\geq (2e^{3/2}+o(1))/\\sqrt{\\pi n}\\).\n\nGusfield and Irving had conjectured that \\(P_n\\) tends to zero, and Stephan Mertens later conjectured that it decays on the order of \\(n^{-1/4}\\). Very recently, in January 2026, Byron Chin and Marcus Michelen resolved the first of these conjectures by proving that \\(P_n \\leq n^{-1/17}\\) for all sufficiently large even \\(n\\).\n\nWe determine the rate of decay, along with the sharp constant. As \\(n\\) grows through even integers,\n\n\\[\nP_n \\sim \\frac{e\\,2^{1/4}\\Gamma(3/4)}{\\sqrt{\\pi}}\\,n^{-1/4}.\n\\]\n\nMertens gives an exact formula for \\(p_\\pi\\), the probability that a given permutation \\(\\pi\\) is stable. Summing \\(p_\\pi\\) over permutations made up entirely of two-cycles gives the expected number of stable pairings. A single set of rankings can contribute several pairings to this sum. To correct for this overcount, Mertens gives an exact formula for \\(P_n\\) as an alternating sum of \\(p_\\pi\\) over permutations whose cycles all have even length. Each cycle longer than two contributes a minus sign, and the positive and negative terms nearly cancel.\n\nWe group permutations by the number \\(2k\\) of people in longer cycles. After averaging over the rankings, symmetry makes the first-order correction to the stability probability dependent only on \\(k\\). This allows us to combine the signed contributions before estimating the remaining error. The leading term then reduces to a sum of positive terms, whose coefficients decay on the order of \\(k^{-3/2}\\), and a factor suppresses terms with \\(k\\) well below \\(\\sqrt{n}\\). The tail on this scale has order \\(n^{-1/4}\\). Evaluating the limiting integral gives the constant."
+  },
+  {
     "objectID": "notes/normal-matrices.html",
     "href": "notes/normal-matrices.html",
     "title": "How often is a random sign matrix normal?",
@@ -18,6 +25,6 @@
     "href": "index.html#notes",
     "title": "Caden Young",
     "section": "Notes",
-    "text": "Notes\n\nHow often is a random sign matrix normal? (August 28, 2026)"
+    "text": "Notes\n\nFinding a stable roommate (October 10, 2026)\nHow often is a random sign matrix normal? (August 28, 2026)"
   }
 ]
