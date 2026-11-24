@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "notes/real-eigenvalues.html",
+    "href": "notes/real-eigenvalues.html",
+    "title": "How many eigenvalues of a random sign matrix are real?",
+    "section": "",
+    "text": "I am very excited to announce that I have just uploaded my preprint, The Number of Real Eigenvalues of a Random Sign Matrix, to the arXiv. In it, I show that a typical large \\(n\\times n\\) sign matrix has about \\(\\sqrt{2n/\\pi}\\) real eigenvalues.\n\nJean Ginibre studied a similar Gaussian model in 1965, where the entries are independent standard normal variables. In 1992, Edelman, Kostlan, and Shub showed that the expected number of real eigenvalues in the Gaussian model is asymptotic to \\(\\sqrt{2n/\\pi}\\). Their experiments with random sign matrices suggested the same leading term.\n\nTerence Tao and Van Vu showed that the Gaussian prediction also holds for a wider class of matrices. For even \\(n\\), their theorem applies when the entries are independent, real, have sufficiently light tails, and match the first four moments of a standard normal.\n\nIn the discrete sign model, each entry is chosen independently and equally likely. Unfortunately, a fair sign matches the first three Gaussian moments, but the fourth power is \\(1\\), whereas a standard normal has a fourth moment of \\(3\\). Even this slight mismatch puts the simple sign model outside Tao and Vu’s theorem.\n\nVu conjectured that a typical sign matrix has on the order of \\(\\sqrt{n}\\) real eigenvalues, likely asymptotically matching the Gaussian model. This can be intuited by thinking of discreteness at high numbers as simulating continuity, and yielding similar properties - such as the semicircle law. In 2025, Yi Han proved a lower bound with the same leading constant as the Gaussian.\n\nMy work gives the matching upper bound. If \\(R_n\\) counts the real eigenvalues, then\n\n\\[\\frac{R_n}{\\sqrt n}\\longrightarrow\\sqrt{\\frac{2}{\\pi}}\\qquad\\text{in }L^1.\\]\n\nThis proves Vu’s conjecture and identifies the leading constant \\(\\sqrt{2/\\pi}\\).\n\nFeel free to contact me with any questions or comments! For more on the four-moment theorem, I highly recommend Tao’s post about his work with Vu."
+  },
+  {
     "objectID": "notes/stable-roommates.html",
     "href": "notes/stable-roommates.html",
     "title": "Finding a stable roommate",
@@ -25,6 +32,6 @@
     "href": "index.html#notes",
     "title": "Caden Young",
     "section": "Notes",
-    "text": "Notes\n\nFinding a stable roommate (October 10, 2026)\nHow often is a random sign matrix normal? (August 28, 2026)"
+    "text": "Notes\n\nHow many eigenvalues of a random sign matrix are real? (November 24, 2026)\nFinding a stable roommate (October 10, 2026)\nHow often is a random sign matrix normal? (August 28, 2026)"
   }
 ]
