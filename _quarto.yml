@@ -4,6 +4,7 @@ project:
   resources:
     - google49b320cc3d7edeb1.html
     - notes/stable-roommates.html
+    - notes/diagonal-resilience.html
     - notes/real-eigenvalues.html
 
 website:
