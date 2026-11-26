@@ -9,6 +9,7 @@ Email: [cadenmyronyoung@gmail.com](mailto:cadenmyronyoung@gmail.com)
 
 ## Notes
 
+- [Diagonal resilience of a sign matrix](notes/diagonal-resilience.html) <small>(<time datetime="2026-11-26">November 26, 2026</time>)</small>
 - [How many eigenvalues of a random sign matrix are real?](notes/real-eigenvalues.html) <small>(<time datetime="2026-11-24">November 24, 2026</time>)</small>
 - [Finding a stable roommate](notes/stable-roommates.html) <small>(<time datetime="2026-10-10">October 10, 2026</time>)</small>
 - [How often is a random sign matrix normal?](notes/normality.html) <small>(<time datetime="2026-08-28">August 28, 2026</time>)</small>
